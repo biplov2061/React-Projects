@@ -1,0 +1,135 @@
+
+
+.nav{
+    height: 100px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+.select_number{
+    display: flex;
+    gap: 14px;
+}
+
+.number{
+    height: 40px;
+    width: 40px;
+    border: 1.1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    background-color: white;
+
+}
+
+.number:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.score{
+    height: 100%;
+    width: 100px;
+}
+
+.score h1{
+    font-size: 3.25rem;
+    font-family: sans-serif;
+}
+
+.score_box{
+    width: 1250px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.total_score{
+    margin-left: 32px;
+}
+
+.dice_roll{
+    height: 449px;
+    width: max-content;
+    height: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.dice_img_cont{
+    height: 40%;
+    width: 88%;
+}
+
+.dice_img{
+    height: 90%;
+    width: 100%;
+}
+
+.dice_roll h3{
+    font-size: medium;
+    margin: 0 ,10px;
+}
+
+.reset_dice_btn{
+    background-color: white;
+    color: red;
+    height: 36px;
+    width: 60%;
+    margin-right: 16px;
+    border: 1px solid rgb(255, 9, 9);
+    border-radius: 4px;
+}
+
+.reset_dice_btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.show_rules_btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 219, 0);
+    height: 36px;
+    width: 60%;
+    margin-right: 16px;
+    border: 1px solid rgb(14, 199, 51);
+    border-radius: 4px;
+}
+
+.show_rules_btn:hover{
+    background-color: rgb(0, 181, 45);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.rules_cont{
+    height: 100px;
+    width: 450px;
+    border: 1px solid black;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 5px;
+
+}
+
+.rules_cont h3{
+    margin-bottom: 3px;
+}
+
+.rules_cont ol li{
+    font-size: small;
+}
